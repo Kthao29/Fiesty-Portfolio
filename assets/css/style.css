@@ -23,6 +23,11 @@ h1 {
   flex-wrap: wrap;
 }
 
+#nav-title {
+  margin-right: auto;
+  font-size: 50px;
+  color: rgb(21, 38, 38);
+}
 
 header li {
   list-style: none;
@@ -79,7 +84,7 @@ footer a:hover{
   background-color: rgb(116, 186, 170);
   position: absolute;
   font-size: 30px;
-  bottom: 600px;
+  bottom: 580px;
   right: 45px;
   padding: 5px 35px 5px 13px;
   text-align: center;
@@ -245,7 +250,7 @@ footer a:hover{
 
 .prework-text {
   position: absolute;
-  left: 425px;
+  left: 420px;
   top: 1270px;
   background-color: #06b7c7;
   padding: 10px;
@@ -360,12 +365,6 @@ footer a:hover{
 }
 
 /* End flex container */
-
-#nav-title {
-  margin-right: auto;
-  font-size: 50px;
-  color: rgb(21, 38, 38);
-}
 
 
 /* Tablets - header changes color */
