@@ -8,6 +8,8 @@ N/A
 
 ## Usage
 
+To use Github click on (https://github.com/Kthao29). Click on repositories to visit all of my previous repo. The work I did previously are live on the server. Click on any of them to visit what I have done.
+
 ## Credits
 
 Credits to all of the websites I visted to help me learned more about elements and how to apply it. Also credits to the people I worked with (Bao and Richard) on helping me during this challenge.
