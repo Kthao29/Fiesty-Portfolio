@@ -8,10 +8,9 @@ N/A
 
 ## Usage
 
-
 ## Credits
 
-Credits to all of the websites I visted to help me learned more about elements and how to apply it.
+Credits to all of the websites I visted to help me learned more about elements and how to apply it. Also credits to the people I worked with (Bao and Richard) on helping me during this challenge.
 
 ## License
 Please refer to the LICENSE in the repo.
