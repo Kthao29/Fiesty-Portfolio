@@ -84,7 +84,7 @@ footer a:hover{
   background-color: rgb(116, 186, 170);
   position: absolute;
   font-size: 30px;
-  bottom: 580px;
+  bottom: 600px;
   right: 45px;
   padding: 5px 35px 5px 13px;
   text-align: center;
@@ -250,7 +250,7 @@ footer a:hover{
 
 .prework-text {
   position: absolute;
-  left: 420px;
+  left: 425px;
   top: 1270px;
   background-color: #06b7c7;
   padding: 10px;
