@@ -1,429 +1,174 @@
-/* Global */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica;
-}
-
-/* Header nav bar */
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: rgb(73, 87, 87);
-}
-
 h1 {
-  background-color: teal;
+  padding: 1%;
+}
+
+.header-background {
+  background-color: aqua;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.inline-header {
   display: inline-flex;
-  font-size: 50px;
-  padding: 5px 5px 5px 50px;
-  margin: 10px 5px 10px 0;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content:space-between;
+  list-style-type: none;
+  margin-top: 20px;
 }
 
-#nav-title {
-  margin-right: auto;
-  font-size: 50px;
-  color: rgb(21, 38, 38);
+.about-header {
+  display: inline-flex;
+  margin-right: 5px;
 }
 
-header li {
-  list-style: none;
-  display: inline-block;
-  padding: 0 5px;
-  font-size: 20px;
-  margin: 5px;
+.work-header {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-header a {
+.contact-header {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.resume-header {
+  margin-left: 5px;
+}
+
+.remove-text-decoration {
   text-decoration: none;
-  color: #06b7c7;
-  transition: all 0.3s ease 0s;
 }
 
-header a:hover {
-  color: #b2dfdb;
+.about-me-section {
+  display: inline-flex;
+  padding: 1%;
 }
 
-footer a:hover{
-  color: teal;
+.about-me {
+  border-right: solid 5px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: right;
 }
 
-.about-me-padding {
-  border-bottom: solid;
-  border-width: 4px;
-  border-color: #06b7c7;
+.description {
+  margin: 1rem;
+  line-height: 20px;
 }
 
-.work-padding {
-  border-bottom: solid;
-  border-width: 4px;
-  border-color: #06b7c7;
+.work-section {
+  display: inline-flex;
+  padding: 1%;
 }
 
-.contact-me-padding {
-  border-bottom: solid;
-  border-width: 4px;
-  border-color: #06b7c7;
+.work {
+  border-right: solid 5px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: right;
 }
 
-.resume-padding {
-  border-bottom: solid;
-  border-width: 4px;
-  border-color: #06b7c7;
+.work-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* End header nav bar */
+.footer-section {
+  display: inline-flex;
+  padding: 1%;
+}
 
-/* Top background image */
+.contact {
+  border-right: solid 5px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: right;
+}
 
-
-.image-absolute {
-  background-color: rgb(116, 186, 170);
-  position: absolute;
+.info {
+  text-align: center;
   font-size: 30px;
-  bottom: 600px;
-  right: 45px;
-  padding: 5px 35px 5px 13px;
-  text-align: center;
-  width: 300px;
+  margin-top: 35px;
+  display: block;
 }
 
-/* End background image */
-
-/* start about me padding */
-
-.about-left {
-  flex: 1.5;
-  font-size: 60px;
-  text-align: right;
-  margin-top: 20px;
-  padding-right: 10px;
-  border-right: solid;
-  border-width: 4px;
+.github {
+  text-decoration: dotted;
+  margin-right: 5px;
 }
 
-.about-right {
-  flex: 4;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 100px;
+.linkedin {
+  text-decoration: solid;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-/* end about me section */
-
-
-
-.panel-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.email {
+  text-decoration: dashed;
+  margin-left: 5px;
 }
 
-
-.work-left {
-  flex: 1.5;
-  font-size: 60px;
-  text-align: right;
-  margin-top: 20px;
-  padding-right: 10px;
-  border-right: solid;
-  border-width: 4px;
-}
-
-.work-right {
-  flex: 4;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 100px;
-}
-
-
-
-/* Big image CSS */
-
-.stack-small {
-  font-size: 10px;
-}
-
-.big-image-position:hover {    
-  opacity: 0.6;
-  transition: 2.5s;
-  position: relative;
-  cursor: pointer;
-}
-
-.big-image-position {
-  padding: 5px;
-  background-color: #06b7c7;
-}
-
-.big-text-absolute {
-  position: absolute;
-  top: 800px;
-  background-color: #06b7c7;
-  padding: 10px;
-}
-
-/* End big image CSS */
-
-/* section for 4 boxes */
-.four-flex-box {
+.git-repo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 25px;
+  justify-content: space-evenly;
 }
 
-.first-smallwork-image:hover {
-  opacity: .6;
-  transition: 2.5s;
-  position: relative;
-  cursor: pointer;
-}
-
-.first-smallwork-image {
-  padding: 5px;
-  background-color: #06b7c7;
-  margin: 10px;
-}
-
-.amongus-span {
-  font-size: 10px;
-}
-
-.amongus-text {
+.apple-left {
   position: absolute;
-  left: 425px;
-  top: 1050px;
-  background-color: #06b7c7;
-  padding: 10px;
-}
-
-.second-smallwork-image {
-  padding: 5px;
-  background-color: #06b7c7;
-  margin: 10px;
-}
-
-.second-smallwork-image:hover {
-  opacity: .6;
-  transition: 2.5s;
-  position: relative;
-  cursor: pointer;
-}
-
-.horiseon-span {
-  font-size: 10px;
-}
-
-.horiseon-text {
-  position: absolute;
-  left: 880px;
-  top: 1050px;
-  background-color: #06b7c7;
-  padding: 10px;
-}
-
-.third-smallwork-image {
-  padding: 5px;
-  background-color: #06b7c7;
-  margin: 10px;
-}
-
-.third-smallwork-image:hover {
-  opacity: .6;
-  transition: 2.5s;
-  position: relative;
-  cursor: pointer;
-}
-
-.prework-span {
-  font-size: 10px;
-}
-
-.prework-text {
-  position: absolute;
-  left: 425px;
-  top: 1270px;
-  background-color: #06b7c7;
-  padding: 10px;
-}
-
-.fourth-smallwork-image {
-  padding: 5px;
-  background-color: #06b7c7;
-  margin: 10px;
-}
-
-
-.fourth-smallwork-image:hover {
-  opacity: .6;
-  transition: 2.5s;
-  position: relative;
-  cursor: pointer;
-}
-
-.coming-span {
-  font-size: 10px;
-}
-
-.coming-soon {
-  position: absolute;
-  left: 880px;
-  top: 1270px;
-  background-color: #06b7c7;
-  padding: 10px;
-}
-
-/* end four small pictures section */
-
-
-/* start contact section */
-.contact-left {
-  flex: 1.29;
-  font-size: 60px;
-  text-align: right;
-  margin-top: 20px;
-  padding-right: 10px;
-  border-right: solid;
-  border-width: 4px;
-}
-
-.contact-right {
-  flex: 4;
-  font-size: 25px;
-  text-align: center;
-  margin-top: 70px;
-}
-
-/* end contact section */
-
-/* start underlines */
-.github-underline {
-  margin: 50px 50px;
-  padding: 8px;
-  text-decoration: none;
-  color: #06b7c7;
-  border-bottom: solid;
-  border-color: #b2dfdb;
-  border-width: 5px;
-}
-
-
-.linkedin-underline {
-  margin: 0 50px;
-  padding: 8px;
-  text-decoration: none;
-  color: #06b7c7;
-  border-bottom: solid;
-  border-color: #b2dfdb;
-  border-width: 5px;
-}
-
-.email-underline {
-  margin: 0 50px;
-  padding: 8px;
-  text-decoration: none;
-  color: #06b7c7;
-  border-bottom: solid;
-  border-color: #b2dfdb;
-  border-width: 5px;
-}
-/* end underlines */
-
-
-
-
-/* flex container */
-
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  flex-flow: wrap;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
+  padding: 1rem;
+  background-color: rgb(82, 27, 153);
   color: white;
-
+  top: 300%;
 }
 
-/* End flex container */
-
-
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-  header {
-    background: #772014;
-  }
+.apple-png {
+  position: relative;
 }
 
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-  header {
-    background-color: #bb8588;
-  }
+.prework-png {
+  position: relative;
 }
 
-@media screen and (max-width: 576px) {
-  body header footer {
-    background-color: #8ac4ff;
-  }
+.amongus-png {
+  position: relative;
 }
 
-@media screen and (max-width: 992px) {
-  .panel-container {
-    display: block;
-    flex-wrap: wrap;
-  }
+.horiseon-png {
+  position: relative;
 }
 
-@media screen and (max-width: 768px) {
-  .panel-container {
-    background-color: aqua;
-    display: block;
-  }
+.fbi-png {
+  position: relative;
 }
 
-@media screen and (max-width: 576px) {
-  footer {
-    background-color: #8ac4ff;
-    display: flex;
-    flex-wrap: wrap;
-  }
+.javacado-png {
+  position: relative;
 }
 
-@media screen and (max-width: 992px) {
-  .big-image-position {
-    display: block;
-    width: 100%;
-  }
+.daily-png {
+  position: relative;
 }
 
-@media screen and (max-width: 768px) {
-  .big-image-position {
-    width: 75%;
-  }
+.storm-png {
+  position: relative;
 }
 
-@media screen and (max-width: 576px) {
-  .big-image-position{
-  width: 75%;
+.monitor-png {
+  position: relative;
 }
+
+.bottom-left {
+  position: absolute;
+  top: 300%;
+  padding: 1rem;
+  background-color: rgb(82, 27, 153);
+  color: white;
 }
+
+/* Pictures margin */ 
+.repo-images {
+  margin: 1rem;
+}
+
